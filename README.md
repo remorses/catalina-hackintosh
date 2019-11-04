@@ -4,13 +4,13 @@
 - everything (maybe not audio because i use external AUDIO interface)
 
 ## Specs
-- CPU: i7-7700k
-- GPU: HD630 (integrated)
-- MOAB: msi Z270-A PRO
-- DISK: samsung 850 EVO
-- network: TP-Link WDN4800
-- bluetooth: logitech dongle
-- display: LG ultrawide 16:9
+- CPU: **i7-7700k**
+- GPU: **HD630 (integrated)**
+- MOAB: **msi Z270-A PRO**
+- DISK: **samsung 850 EVO**
+- network: **TP-Link WDN4800**
+- bluetooth: **logitech dongle**
+- display: **LG ultrawide 16:9**
 
 # Instructions:
 - follow a generic guide to create the usb installer
