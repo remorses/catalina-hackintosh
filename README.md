@@ -1,4 +1,4 @@
-# EFI for Mojave 10.14.2 
+# EFI for Catalina 10.15.1
 
 ## working
 - everything (maybe not audio because i use external AUDIO interface)
