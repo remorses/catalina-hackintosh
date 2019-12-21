@@ -92,11 +92,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100 agdpmod=pikera</string>
+		<string>keepsyms=1 dart=0 debug=0x100 -v shikigva=40</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>NeverHibernate</key>
-		<true/>
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
@@ -118,6 +116,14 @@
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAASWQ==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AAAwAQ==
 				</data>
 			</dict>
 		</dict>
@@ -274,50 +280,14 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>IM183.88Z.0161.B00.1806260901</string>
-		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02747902J9F9GYA8</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>Family</key>
-		<string>iMac</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<false/>
-		<key>PlatformFeature</key>
-		<string>0x00</string>
+		<string>C026528024NF64WFB</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac18,1</string>
 		<key>SerialNumber</key>
-		<string>C02VQ07QJ1GJ</string>
+		<string>C02T12AQJ1GJ</string>
 		<key>SmUUID</key>
-		<string>AFA513A5-A2E6-4D4A-A490-FD6DCDE8BE34</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<string>00000000-0000-0000-0000-4CCC6AD41208</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
@@ -326,8 +296,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NoCaches</key>
 		<true/>
 	</dict>
 </dict>
