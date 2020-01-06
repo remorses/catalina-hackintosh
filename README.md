@@ -5,7 +5,7 @@
 
 ## Specs
 - CPU: **i7-7700k**
-- GPU: **HD630 (integrated)**
+- GPU: **AMD 580 4Gb**
 - MOAB: **msi Z270-A PRO**
 - DISK: **samsung 850 EVO**
 - network: **TP-Link WDN4800**
